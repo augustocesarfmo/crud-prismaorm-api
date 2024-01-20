@@ -3,7 +3,7 @@ import { prisma } from "./lib/prisma";
 
 import { Prisma } from "@prisma/client";
 
-export const app = fastify({ logger: true });
+export const app = fastify();
 
 app.get("/products", async (req, res) => {
   const result = await prisma.product.findMany();
