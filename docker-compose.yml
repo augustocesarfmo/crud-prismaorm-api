@@ -1,0 +1,17 @@
+# docker run --name mydb-pg
+# -e POSTGRESQL_USERNAME=docker
+# -e POSTGRESQL_PASSWORD=docker
+# -e POSTGRESQL_DATABASE=mydb
+# -p 5432:5432 -d bitnami/postgresql
+
+version: "3"
+
+services:
+  mydb-pg:
+    image: bitnami/postgresql
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRESQL_USERNAME=docker
+      - POSTGRESQL_PASSWORD=docker
+      - POSTGRESQL_DATABASE=mydb
