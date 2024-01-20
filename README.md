@@ -37,9 +37,9 @@ $ npx prisma migrate dev
 $ npm run dev
 
 # Testando as rotas
-1. Instale a extensão REST Client no VS Code;
-2. Abra o arquivo './src/http/index.http';
-3. Clique em 'Send Request' em qualquer rota.
+  1. Instale a extensão REST Client no VS Code;
+  2. Abra o arquivo './src/http/index.http';
+  3. Clique em 'Send Request' em qualquer rota.
 ```
 
 ## 📝 Licença
