@@ -24,13 +24,10 @@ $ cd crud-prismaorm-backend
 # Instalando as dependências
 $ npm install
 
-# Configurando as variáveis de ambiente
-> renomeie o arquivo '.env.example' para '.env'
-
 # Configurando o banco de dados PostgreSQL com o Docker
 $ docker compose up -d
 
-# Realizando migrações
+# Realizando as migrações
 $ npx prisma migrate dev
 
 # Executando o app
