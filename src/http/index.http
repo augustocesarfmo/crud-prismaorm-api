@@ -1,0 +1,35 @@
+@base_url = http://localhost:3001
+
+// Listando os registros
+GET {{base_url}}/products
+
+###
+
+// Recuperando um registro específico
+GET {{base_url}}/products/1
+
+###
+
+// Criando um novo registro
+POST {{base_url}}/products
+content-type: application/json
+
+{
+  "name": "Melancia",
+  "price": 10
+}
+
+###
+
+// Atualizando um registro
+PUT {{base_url}}/products/91c0277f-4ff0-4bbb-84ac-c9e304cbb84d
+content-type: application/json
+
+{
+  "name": "Recife/PE"
+}
+
+###
+
+// Deletando um registro
+DELETE {{base_url}}/products/be4bee48-3966-467c-be72-2c210a88e1c0
