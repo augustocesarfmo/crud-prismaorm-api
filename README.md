@@ -24,10 +24,10 @@ $ cd crud-prismaorm-backend
 # Instalando as dependências
 $ npm install
 
-# Configurando o banco de dados PostgreSQL com o Docker
+# Criando o banco de dados PostgreSQL da API com Docker
 $ docker compose up -d
 
-# Realizando as migrações
+# Aplicando as migrações no banco de dados
 $ npx prisma migrate dev
 
 # Executando o app
@@ -35,7 +35,7 @@ $ npm run dev
 
 # Testando as rotas
   1. Instale a extensão REST Client no VS Code;
-  2. Abra o arquivo './src/http/index.http';
+  2. Abra o arquivo './index.http';
   3. Clique em 'Send Request' em qualquer rota.
 ```
 
