@@ -1,6 +1,6 @@
 # CRUD Prisma ORM API
 
-Este é um projeto de demonstração de uma API REST conectada a um banco de dados PostgreSQL através da biblioteca Prisma ORM para o gerenciamento de produtos. Ela foi desenvolvida utilizando TypeScript e o framework Fastify.
+Este é um projeto de demonstração de uma API REST conectada a um banco de dados PostgreSQL através da biblioteca Prisma ORM para o gerenciamento de `produtos`. Ela foi desenvolvida utilizando TypeScript e o framework Fastify.
 
 ## 🚀 Tecnologias
 
